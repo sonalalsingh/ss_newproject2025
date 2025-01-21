@@ -1,0 +1,10 @@
+num1= int(input("Enter the value of first number : "))
+num2= int(input("Enter the value of second number : "))
+add = num1+num2
+sub = num1-num2
+mul = num1*num2
+div = num1/num2
+print("Result of addition = ",add)
+#print("Result of subtraction = ",sub)
+#print("Result of multiplication = ",mul)
+#print("Result of division = ",div)
