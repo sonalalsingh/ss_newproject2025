@@ -1,0 +1,67 @@
+s="cdac noida"
+s[0:5]
+'cdac '
+s[5:0]
+''
+s[2:2]
+''
+s[-1]
+'a'
+s[3]
+'c'
+2+5
+7
+"cdac"+"noida"
+'cdacnoida'
+"cdac"+123
+Traceback (most recent call last):
+  File "<pyshell#8>", line 1, in <module>
+    "cdac"+123
+TypeError: can only concatenate str (not "int") to str
+"cdac"+str(123)
+'cdac123'
+2*3
+6
+"cdac"*"noida"
+Traceback (most recent call last):
+  File "<pyshell#11>", line 1, in <module>
+    "cdac"*"noida"
+TypeError: can't multiply sequence by non-int of type 'str'
+"cdac"*3
+'cdaccdaccdac'
+s="cdac noida"
+type(s)
+<class 'str'>
+s.count('c')
+2
+s.count('c',1,10)
+1
+s.count('a',1,10)
+2
+s.count('a',1,5)
+1
+s.count('noida',1,5)
+0
+s.count('noida')
+1
+s.count('da')
+2
+s
+'cdac noida'
+s.capitalize()
+'Cdac noida'
+s
+'cdac noida'
+s1=s.capitalize()
+s1
+'Cdac noida'
+s
+'cdac noida'
+s.find("da")
+1
+s.find("no")
+5
+s.rfind("da")
+8
+s.rfind("no")
+5
