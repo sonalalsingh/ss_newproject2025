@@ -1,0 +1,123 @@
+Ways of writing Python code:
+
+1. By using Command prompt in interacative mode
+
+
+2. By using Command prompt in script mode
+
+
+3. By using IDE(Integrated Development Environment):
+
+
+======================================================
+
+help("keywords")
+
+Here is a list of the Python keywords.  Enter any keyword to get more help.
+
+False               class               from                or
+None                continue            global              pass
+True                def                 if                  raise
+and                 del                 import              return
+as                  elif                in                  try
+assert              else                is                  while
+async               except              lambda              with
+await               finally             nonlocal            yield
+break               for                 not                 
+
+
+= RESTART: C:/Users/cdac.DESKTOP-24B542J.000/Desktop/CAPF/Sample Codes/Example3.py
+Welcome in the world of Python Programming.
+      Python is very powerfull language
+      But it is very easy to learn
+
+= RESTART: C:/Users/cdac.DESKTOP-24B542J.000/Desktop/CAPF/Sample Codes/Example3.py
+Welcome in the world of Python Programming.
+      Python is very powerfull language
+      But it is very easy to learn
+x="Don't go"
+x
+"Don't go"
+x='Don't go'
+SyntaxError: unterminated string literal (detected at line 1)
+x='Don\'t go'
+x
+"Don't go"
+print("Name: Nimesh\t Address: MV III\tContact No. :9818283775")
+Name: Nimesh	 Address: MV III	Contact No. :9818283775
+print("Name: Nimesh\nAddress: MV III\nContact No. :9818283775")
+Name: Nimesh
+Address: MV III
+Contact No. :9818283775
+
+
+a=123.45
+type(a)
+<class 'float'>
+a=2+3j
+a
+(2+3j)
+b=3+4j
+b
+(3+4j)
+c=a+b
+c
+(5+7j)
+a-b
+(-1-1j)
+a/b
+(0.72+0.04j)
+a*b
+(-6+17j)
+a=5/2
+a
+2.5
+a=5.0/2
+a
+2.5
+a=5//2 #floor division
+a
+2
+a=5.0//2
+a
+2.0
+a=2**4
+a
+16
+b=pow(2,4)
+b
+16
+import math
+math.floor(125.56)
+125
+math.floor(-125.56)
+-126
+math.ceil(125.56)
+126
+math.ceil(-125.56)
+-125
+x=math.sqrt(25)
+x
+5.0
+sqrt(25)
+Traceback (most recent call last):
+  File "<pyshell#30>", line 1, in <module>
+    sqrt(25)
+NameError: name 'sqrt' is not defined
+round(125.5676777,2)
+125.57
+round(125.5676777,0)
+126.0
+round(125.5676777)
+126
+round(125.5676777,-2)
+100.0
+round(155.5676777,-2)
+200.0
+round(155.5676777,-1)
+160.0
+dir(__builtins__)
+['ArithmeticError', 'AssertionError', 'AttributeError', 'BaseException', 'BaseExceptionGroup', 'BlockingIOError', 'BrokenPipeError', 'BufferError', 'BytesWarning', 'ChildProcessError', 'ConnectionAbortedError', 'ConnectionError', 'ConnectionRefusedError', 'ConnectionResetError', 'DeprecationWarning', 'EOFError', 'Ellipsis', 'EncodingWarning', 'EnvironmentError', 'Exception', 'ExceptionGroup', 'False', 'FileExistsError', 'FileNotFoundError', 'FloatingPointError', 'FutureWarning', 'GeneratorExit', 'IOError', 'ImportError', 'ImportWarning', 'IndentationError', 'IndexError', 'InterruptedError', 'IsADirectoryError', 'KeyError', 'KeyboardInterrupt', 'LookupError', 'MemoryError', 'ModuleNotFoundError', 'NameError', 'None', 'NotADirectoryError', 'NotImplemented', 'NotImplementedError', 'OSError', 'OverflowError', 'PendingDeprecationWarning', 'PermissionError', 'ProcessLookupError', 'RecursionError', 'ReferenceError', 'ResourceWarning', 'RuntimeError', 'RuntimeWarning', 'StopAsyncIteration', 'StopIteration', 'SyntaxError', 'SyntaxWarning', 'SystemError', 'SystemExit', 'TabError', 'TimeoutError', 'True', 'TypeError', 'UnboundLocalError', 'UnicodeDecodeError', 'UnicodeEncodeError', 'UnicodeError', 'UnicodeTranslateError', 'UnicodeWarning', 'UserWarning', 'ValueError', 'Warning', 'WindowsError', 'ZeroDivisionError', '_', '__build_class__', '__debug__', '__doc__', '__import__', '__loader__', '__name__', '__package__', '__spec__', 'abs', 'aiter', 'all', 'anext', 'any', 'ascii', 'bin', 'bool', 'breakpoint', 'bytearray', 'bytes', 'callable', 'chr', 'classmethod', 'compile', 'complex', 'copyright', 'credits', 'delattr', 'dict', 'dir', 'divmod', 'enumerate', 'eval', 'exec', 'exit', 'filter', 'float', 'format', 'frozenset', 'getattr', 'globals', 'hasattr', 'hash', 'help', 'hex', 'id', 'input', 'int', 'isinstance', 'issubclass', 'iter', 'len', 'license', 'list', 'locals', 'map', 'max', 'memoryview', 'min', 'next', 'object', 'oct', 'open', 'ord', 'pow', 'print', 'property', 'quit', 'range', 'repr', 'reversed', 'round', 'set', 'setattr', 'slice', 'sorted', 'staticmethod', 'str', 'sum', 'super', 'tuple', 'type', 'vars', 'zip']
+a=complex(3,4)
+a
+(3+4j)
